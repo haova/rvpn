@@ -5,19 +5,29 @@
 To start wireguard:
 
 ```bash
-./start.sh
+./scripts/sync.sh & ./scripts/start.sh
 ```
 
 To stop wireguard:
 
 ```bash
-./stop.sh
+./scripts/stop.sh
 ```
 
 Connect to peer:
 
 ```bash
-./start.sh <PEER_IP/HOST>
+./scripts/sync.sh & ./scripts/start.sh <PEER_IP/HOST>
+```
+
+## Features
+
+### `rvpn.sh`
+
+You can run any script and test by `rvpn.sh` command. To see my help:
+
+```bash
+sudo ./rvpn.sh
 ```
 
 ## License

@@ -1,0 +1,23 @@
+{
+  "name": "monitor",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "d3-force": "^3.0.0",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.1",
+    "v-network-graph": "^0.9.1",
+    "vite": "^4.1.4",
+    "vite-plugin-singlefile": "^0.13.5"
+  }
+}
