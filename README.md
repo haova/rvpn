@@ -2,6 +2,12 @@
 
 ## Quick Start
 
+Install:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/haova/rvpn/master/install.sh)"
+```
+
 To start wireguard:
 
 ```bash
